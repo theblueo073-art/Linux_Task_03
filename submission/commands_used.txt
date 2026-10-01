@@ -1,0 +1,37 @@
+    1  cd ~
+    2  mkdir /home/forensic01/logs/
+    3  ls
+    4  cd logs
+    5  ls
+    6  echo " 2026-10-01 08:00:01 INFO: System startup completed successfully
+    7  echo "2026-10-01 08:00:01 INFO: System startup completed successfully...                             2026-10-01 08:05:14 INFO: user01 logged into the system                                                 2026-10-01 08:10:24 WARNING: Multiple failed login attempts detected                                    2026-10-01 08:15:35 INFO: root executable system maintenance                                            2026-10-01 08:20:24 ERROR: Failed to access authentication service                                      2026-10-01 08:25:28 INFO: user01 accessed the logs directory                                            2026-10-01 08:30:31 INFO: Network connection established                                                2026-10-01 08:35:43 WARNING: Disk usage has exceeded 80 percent                                         2026-10-01 08:40:21 ERROR: Unable to write system event log                                             2026-10-01 08:45:38 INFO: root restarted the logging service                                            2026-10-01 08:50:45 INFO: user01 created a new file                                                     2026-10-01 08:55:53 INFO: user01 created a new file                                                     2026-10-01 09:00:53 WARNING: Unauthorized access attempt detected                                       2026-10-01 09:05:43 ERROR: Authentication failed for user01                                             2026-10-01 09:10:23 INFO: System backup started                                                         2026-10-01 09:15:48 INFO: root checked system permissions                                               2026-10-01 09:20:53 WARNING: High memory usage detected                                                 2026-10-01 09:25:24 ERROR: Network service restarted successfullu   
+    8  cat > sys_events.log    
+    9  cat > sys_events.log
+   10  cd ~
+   11  sudo usermod -aG vboxsf forensic01
+   12  ls
+   13  ls /media/
+   14  ls /media/sf_Linux_Task_03/
+   15  ls
+   16  cd logs
+   17  ls
+   18  cd ~
+   19  cp -r /logs/* /media/sf_LInux_Task_03/workflow/logs/
+   20  ls
+   21  cd logs
+   22  ls
+   23  cp -r /logs/* /media/sf_Linux_Task_03/workflow/logs/
+   24  cp -r ~/logs/* /media/sf_Linux_Task_03/workflow/logs/
+   25  sudo cp -r ~/logs/* /media/sf_Linux_Task_03/workflow/logs/
+   26  ls -l
+   27  ls -la
+   28  cd ..
+   29  cat > final-output.txt
+   30  cd ~
+   31  ls
+   32  cat final-output.txt
+   33  cp -r ~/final-output.txt/* /media/sf_Linux_Task_03/submission/final-output.txt/
+   34  cp -r ~/final-output.txt /media/sf_Linux_Task_03/submission/
+   35  nano final-output.txt
+   36  cp -r ~/final-output.txt /media/sf_Linux_Task_03/submission/
+   37  history > commands_used.txt

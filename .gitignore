@@ -1,0 +1,24 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs / temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Editor / IDE files
+.vscode/
+.idea/
+
+# Python cache, if tooling is added later
+__pycache__/
+*.py[cod]
+
+# Local environment files
+.env
+.env.*
+
+# Keep required evidence and submission templates tracked.

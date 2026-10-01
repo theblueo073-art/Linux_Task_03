@@ -1,0 +1,12 @@
+1. grep
+
+grep is used to search for specific words or patterns within text files. In this task, it is used to find lines containing ERROR and lines mentioning root or user01.
+
+2. chown
+
+chown is used to change the owner of a file or directory. In this task, it is used with sudo to change the owner of confidential.txt to root.
+
+3. usermod
+
+usermod is used to modify an existing Linux user's account settings. In this task, it is used to add forensic01 and guest1 to the sudo group.
+ I learned that changing a file’s ownership can affect who is allowed to access or modify it. Even if a user created the file, they may lose access depending on the file’s ownership and permissions, which demonstrates the importance of proper ownership and permission management in Linux.        
